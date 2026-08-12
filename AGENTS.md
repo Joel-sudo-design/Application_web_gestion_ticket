@@ -28,6 +28,7 @@
 - Un déploiement normal doit préserver les volumes MariaDB, MongoDB, `public/ticket_image` et le fichier d'environnement de la cible.
 - Les secrets restent dans l'environnement sécurisé ou les secrets GitHub et ne doivent jamais entrer dans le dépôt.
 - Les migrations de MariaDB ou MongoDB exigent une sauvegarde vérifiée, un essai sur un volume jetable et une procédure de retour arrière.
+- MongoDB est fixé à `8.0.28`, palier obligatoire avant MongoDB 8.2. Une future montée vers 8.2 exige d'abord une période de validation sous 8.0 avec la FCV à `8.0`.
 
 ## Maintenance des dépendances
 
