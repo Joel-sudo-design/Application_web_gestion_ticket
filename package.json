@@ -5,10 +5,10 @@
         "@popperjs/core": "^2.11.8",
         "@symfony/webpack-encore": "^6.0.0",
         "bootstrap": "^5.3.8",
-        "core-js": "^3.49.0",
+        "core-js": "^3.50.0",
         "jquery": "^3.7.1",
         "regenerator-runtime": "^0.14.1",
-        "webpack": "^5.107.2",
+        "webpack": "^5.109.2",
         "webpack-cli": "^6.0.1"
     },
     "license": "UNLICENSED",
